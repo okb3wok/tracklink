@@ -1,0 +1,31 @@
+{
+  "name": "tracklink",
+  "version": "1.0.3",
+  "description": "Redirects and tracks links on your website according to a configurable URL dictionary",
+  "keywords": [
+    "links",
+    "redirect",
+    "tracking"
+  ],
+  "license": "MIT",
+  "author": "Alexander Dolzhenkov",
+  "type": "module",
+  "main": "dist/tracklink.umd.js",
+  "module": "dist/tracklink.js",
+  "browser": "dist/tracklink.umd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "cross-env": "^10.0.0",
+    "terser-webpack-plugin": "^5.3.14",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "files": [
+    "dist"
+  ]
+}

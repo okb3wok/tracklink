@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Tracklink</title>
+</head>
+<body>
+<div>
+
+  <h4>Test Tracklink</h4>
+
+  <a href="https://example1.com" rel="nofollow">Referral link</a><br>
+
+  <a href="https://google.com" rel="nofollow">Usual link to google.com</a>
+</div>
+<script src="tracklink.umd.js"></script>
+<script>
+  tracklink.init({
+    'https://example1.com':'http://example1.com/?marker=123&ref=456',
+    'https://example2.com':'http://example2.com/?marker=789'
+  })
+</script>
+</body>
+</html>

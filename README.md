@@ -81,5 +81,6 @@ Builds the app for production into the `dist` folder. The output includes minifi
 
 ## 📄 Other
 
+GitHub: [https://github.com/okb3wok/tracklink](https://github.com/okb3wok/tracklink)
 
 MIT License, Copyright (c) 2025 Alexander Dolzhenkov

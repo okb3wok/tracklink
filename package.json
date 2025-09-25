@@ -8,6 +8,7 @@
     "tracking"
   ],
   "license": "MIT",
+  "git": "https://github.com/okb3wok/tracklink.git",
   "author": "Alexander Dolzhenkov",
   "type": "module",
   "main": "dist/tracklink.umd.js",

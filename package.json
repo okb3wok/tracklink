@@ -1,6 +1,6 @@
 {
   "name": "tracklink",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Redirects and tracks links on your website according to a configurable URL dictionary",
   "keywords": [
     "links",
